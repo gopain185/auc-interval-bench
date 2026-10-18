@@ -19,4 +19,4 @@ The notebook samples binormal scores whose **population AUC is known exactly** (
 2. coverage, false alarms and power for the difference of two correlated models on 60,000 rows;
 3. the smallest AUC gain a paired test can detect, from 10k to 700k rows.
 
-Everything runs on CPU in about 45 minutes, and the package source is embedded below.
+Everything runs on CPU in about 35 minutes, and the package source is embedded below.

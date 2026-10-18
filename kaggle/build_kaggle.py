@@ -51,7 +51,7 @@ def build_dataset(public: bool, rerun: bool = True) -> Path:
     (out / "dataset-metadata.json").write_text(json.dumps({
         "title": "AUC Confidence Interval Simulations",
         "id": DATASET_ID,
-        "subtitle": "Coverage of DeLong, Hanley-McNeil and bootstrap AUC intervals on scores with a known true AUC",
+        "subtitle": "Coverage of ROC AUC confidence intervals on scores with a known true AUC",
         "description": datasheet,
         "isPrivate": not public,
         "licenses": [{"name": "CC0-1.0"}],
