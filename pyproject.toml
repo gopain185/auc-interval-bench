@@ -1,0 +1,10 @@
+[project]
+name = "auc-interval-bench"
+version = "0.1.0"
+description = "Coverage of confidence intervals for ROC AUC and for AUC differences, on simulated scores with a known population AUC"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "pandas", "scikit-learn"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
